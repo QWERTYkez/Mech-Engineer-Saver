@@ -1,0 +1,23 @@
+﻿<Application
+    x:Class="MechEngineerSaver.App"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="clr-namespace:MechEngineerSaver"
+    xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+    StartupUri="MainWindow.xaml">
+    <Application.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary>
+                    <FontFamily x:Key="Pixeleum_48">./Resources/Pixeleum 48/#Pixeleum 48</FontFamily>
+                </ResourceDictionary>
+                <ResourceDictionary Source="Converters/Converters.xaml" />
+                <materialDesign:CustomColorTheme
+                    BaseTheme="Dark"
+                    PrimaryColor="{x:Static local:App.PrimaryColor}"
+                    SecondaryColor="{x:Static local:App.SecondaryColor}" />
+                <ResourceDictionary Source="pack://application:,,,/MaterialDesignThemes.Wpf;component/Themes/MaterialDesign3.Defaults.xaml" />
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
+    </Application.Resources>
+</Application>

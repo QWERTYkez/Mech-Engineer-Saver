@@ -1,0 +1,26 @@
+﻿<ResourceDictionary
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="clr-namespace:MechEngineerSaver.Converters">
+
+    <local:NullToBool_Converter x:Key="NullToBool_Converter" />
+    <local:NullToVisability_Visible_Converter x:Key="NullToVisability_Visible_Converter" />
+    <local:NullToVisability_Visible_Hidden_Converter x:Key="NullToVisability_Visible_Hidden_Converter" />
+    <local:NullToVisability_Collapsed_Converter x:Key="NullToVisability_Collapsed_Converter" />
+    <local:TrueToVisability_Converter x:Key="TrueToVisability_Converter" />
+    <local:TrueToVisability_Hidden_Converter x:Key="TrueToVisability_Hidden_Converter" />
+    <local:FalseToVisability_Converter x:Key="FalseToVisability_Converter" />
+    <local:FalseToVisability_Hidden_Converter x:Key="FalseToVisability_Hidden_Converter" />
+    <local:DoubleToInteger x:Key="DoubleToInteger" />
+    <local:DoubleToWidth x:Key="DoubleToWidth" />
+    <local:DoubleToAlignment x:Key="DoubleToAlignment" />
+    <local:DoubleToThickness x:Key="DoubleToThickness" />
+    <local:EmptyStringToBool_Converter x:Key="EmptyStringToBool_Converter" />
+    <local:EmptyStringToVisability_Visible_Converter x:Key="EmptyStringToVisability_Visible_Converter" />
+    <local:EmptyStringToVisability_Visible_Hidden_Converter x:Key="EmptyStringToVisability_Visible_Hidden_Converter" />
+    <local:EmptyStringToVisability_Collapsed_Converter x:Key="EmptyStringToVisability_Collapsed_Converter" />
+    <local:EmptyStringToVisability_Collapsed_Hidden_Converter x:Key="EmptyStringToVisability_Collapsed_Hidden_Converter" />
+    <local:PositiveIntToVisability_Converter x:Key="PositiveIntToVisability_Converter" />
+    <local:AnyIntToVisability_Converter x:Key="AnyIntToVisability_Converter" />
+
+</ResourceDictionary>
